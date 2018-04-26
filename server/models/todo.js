@@ -1,5 +1,7 @@
+//import mongoose modula
 var mongoose = require('mongoose');
 
+//stvaranje modela u mongoosu
 var Todo = mongoose.model('Todo', {
     text: {
        type: String,
@@ -17,4 +19,5 @@ var Todo = mongoose.model('Todo', {
     }
 });
 
+//export objekta todo koji sadržava mongoose model
 module.exports = {Todo};
