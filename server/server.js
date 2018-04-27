@@ -1,5 +1,3 @@
-//91
-
 //Import modula sa NPM-a
 var express = require('express');
 var bodyParser = require('body-parser');
